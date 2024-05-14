@@ -9,4 +9,3 @@ services:
       - /etc/localtime:/etc/localtime:ro
     ports:
       - 2121:8080
-    restart: unless-stopped
