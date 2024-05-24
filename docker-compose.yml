@@ -5,5 +5,7 @@ services:
     image: glanceapp/glance:latest
     volumes:
       - ./glance.yml:/app/glance.yml
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
     ports:
       - 2121:8080
