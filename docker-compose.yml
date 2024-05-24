@@ -8,4 +8,4 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports:
-      - 2121:8080
+      - 2121:2121
